@@ -1,0 +1,8 @@
+email: projetolarsantaterezinha@gmail.com
+senha: Projeto@Santa2023
+
+mesmo usuario e senha para Github
+https://github.com/LarSantaTerezinha/projetoUnivesp 
+(esse repositorio esta público a princípo)
+
+github: https://github.com/LarSantaTerezinha/projetoUnivesp.git
