@@ -13,6 +13,7 @@ if (session_start()) {
     <title>Lar Santa Terezinha</title>
 </head>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/html.png"/>
 <style>
     body {
         /*width: 700px;*/
