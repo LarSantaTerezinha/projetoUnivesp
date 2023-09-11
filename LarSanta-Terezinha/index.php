@@ -1,19 +1,19 @@
 <?php
 if (session_start()) {
-    session_destroy();
+  session_destroy();
 }
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lar Santa Terezinha</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lar Santa Terezinha</title>
 </head>
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="icon" type="image/png" href="img/html.png"/>
+<link rel="icon" type="image/png" href="img/html.png" />
 <!--<style>
     body {
         /*width: 700px;*/
@@ -26,104 +26,108 @@ if (session_start()) {
     }
 </style>-->
 <style>
-    body {
-        background: url(img/Lighthouse.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  body {
+    background: url(img/lar-santa-terezinha5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .paragrafo1 {
+    color: #F4A460;
+  }
 </style>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Informações    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="paroco.html">Pároco</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="historia.html">História</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="servicos.html">Serviços/Honorários</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Externo
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Localização</a></li>
-            <li><a class="dropdown-item" href="#">Conheça</a></li>
-            <li><a class="dropdown-item" href="#">Informações legais (LGPD)</a></li>
-          </ul>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Informações </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="paroco.html">Pároco</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="historia.html">História</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicos.html">Serviços/Honorários</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Externo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Localização</a></li>
+              <li><a class="dropdown-item" href="#">Conheça</a></li>
+              <li><a class="dropdown-item" href="#">Informações legais (LGPD)</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+  <center>
+    <div class="container">
+      <center>
+        <br>
+        <h1 class="paragrafo1">Lar Santa Teresinha</h1>
+        <br>
+      </center>
+    </div>
+    <!--agora colocar 2 colunas e a coluna a esquerda dividir em 2 partes -->
     <center>
-        <div class="container">
-            <center>
-                <br>
-                <h1 class="text-info">Lar Santa Teresinha</h1>
-                <br>
-            </center>
-        </div>
-        <!--agora colocar 2 colunas e a coluna a esquerda dividir em 2 partes -->
-        <center>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 border border-dark border-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 border border-dark border-5">
 
-                        <h3 class="text-center">Informações da Paróquia</h3>
-                        <br>
-                        <a href="paroco.html">Pároco</a>
-                        <br>
-                        <a href="historia.html">História</a>
-                        <br>
-                        <a href="servicos.html">Serviços/Horários</a>
-                        <br>
-                        <a href="contato.html">Contato</a>
-                        <br>
-                    </div>
-                    <div class="col-6 border border-danger border-5">
+            <h3 class="text-center">Informações da Paróquia</h3>
+            <br>
+            <a href="paroco.html">Pároco</a>
+            <br>
+            <a href="historia.html">História</a>
+            <br>
+            <a href="servicos.html">Serviços/Horários</a>
+            <br>
+            <a href="contato.html">Contato</a>
+            <br>
+          </div>
+          <div class="col-6 border border-danger border-5">
 
-                        <div class="col-12 border border-success border-4">
+            <div class="col-12 border border-success border-4">
 
 
-                            <form method="POST" action="valida_usuario.php">
-                                <legend class="text-center">Login</legend>
-                                <center>
-                                    <label for="Email">Email:</label>
-                                    <input type="text" name="email" id="email">
-                                    <br><br><br>
-                                    <label for="senha">Senha:</label>
-                                    <input type="password" name="senha" id="senha">
-                                    <br><br><br>
-                                    <input type="submit" value="Entrar" name="entrar" id="entrar">
-                                </center>
-                            </form>
+              <form method="POST" action="valida_usuario.php">
+                <legend class="text-center">Login</legend>
+                <center>
+                  <label for="Email">Email:</label>
+                  <input type="text" name="email" id="email">
+                  <br><br><br>
+                  <label for="senha">Senha:</label>
+                  <input type="password" name="senha" id="senha">
+                  <br><br><br>
+                  <input type="submit" value="Entrar" name="entrar" id="entrar">
+                </center>
+              </form>
 
-                        </div>
-                        <div class="col-12 border border-dark border-4">
-
-                            <br>
-                            <h1 class="text-center"><strong>Pastoral</strong></h1>
-                            <h5 class="text-center"><strong>Missao</strong></h5>
-                            <h5 class="text-center"><strong>Valores</strong></h5>
-                            <h5 class="text-center"><strong>Visao</strong></h5>
-                            <h5 class="text-center"><strong>Contato</strong></h5>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </center>
+            <div class="col-12 border border-dark border-4">
+
+              <br>
+              <h1 class="text-center"><strong>Pastoral</strong></h1>
+              <h5 class="text-center"><strong>Missao</strong></h5>
+              <h5 class="text-center"><strong>Valores</strong></h5>
+              <h5 class="text-center"><strong>Visao</strong></h5>
+              <h5 class="text-center"><strong>Contato</strong></h5>
+            </div>
+          </div>
+        </div>
+      </div>
     </center>
-    <script src="js/bootstrap.min.js"></script>
+  </center>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
