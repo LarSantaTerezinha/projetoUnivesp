@@ -14,7 +14,7 @@ if (session_start()) {
 </head>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="icon" type="image/png" href="img/html.png"/>
-<style>
+<!--<style>
     body {
         /*width: 700px;*/
         height: 500px;
@@ -24,14 +24,14 @@ if (session_start()) {
         background: linear-gradient(117deg, rgba(100, 28, 140, 1) 0%, rgba(233, 19, 19, 1) 0%, rgba(49, 222, 219, 1) 0%);
         /*background: linear-gradient(137deg, rgba(120,48,160,1) 0%, rgba(253,29,29,1) 0%, rgba(69,252,239,1) 0%);*/
     }
-</style>
-<!--<style>
+</style>-->
+<style>
     body {
-        background: url(img/Lighthouse1.jpg);
+        background: url(img/Lighthouse.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
-</style>-->
+</style>
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
