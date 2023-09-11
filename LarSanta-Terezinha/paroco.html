@@ -8,23 +8,78 @@
     <title>Pároco</title>
 </head>
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="icon" type="image/png" href="img/html.png"/>
+<link rel="icon" type="image/png" href="img/html.png" />
 <style>
-    body {
-        background: url(img/lar-santa-terezinha1.jpeg);
+    img {
+        filter: 0.7;
+        /*background: url(img/lar-santa-terezinha1.jpeg);
+        
         background-repeat: no-repeat;
         background-size: cover;
+        background-blend-mode: luminosity;
+        /*opacity: 0.25;*/
+        /*arrumar aqui de volta sem o opacity se o banner nao der certo*/
+
     }
 </style>
 
 <body>
-    <h1>Pároco</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Informações </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="paroco.html">Pároco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços/Honorários</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Externo
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Localização</a></li>
+                            <li><a class="dropdown-item" href="#">Conheça</a></li>
+                            <li><a class="dropdown-item" href="#">Informações legais (LGPD)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
 
-    <br>
-    <br>
-    <a href="index.php">
-        <-- Voltar </a>
-            <script src="js/bootstrap.min.js"></script>
+            </div>
+            <div class="col-4">
+                <br><br><br><br><br>
+                <img src="img/lar-santa-terezinha1.jpeg" class="img-fluid">
+                <h1>Pároco</h1>
+
+                <br>
+                <br>
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <a href="index.php" class="link-underline-danger">Início</a>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
