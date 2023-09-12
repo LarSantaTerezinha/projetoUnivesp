@@ -14,6 +14,7 @@ if (session_start()) {
 </head>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="icon" type="image/png" href="img/html.png" />
+<script src="js/validaLoginForm.js"></script>
 <!--<style>
     body {
         /*width: 700px;*/
@@ -40,7 +41,7 @@ if (session_start()) {
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Informações </a>
+      <a class="navbar-brand" href="index.php">Informações</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -99,7 +100,7 @@ if (session_start()) {
             <div class="col-12 border border-success border-4">
 
 
-              <form method="POST" action="valida_usuario.php">
+              <form id="loginForm" method="POST" action="valida_usuario.php" onsubmit="return validaLoginForm()">
                 <legend class="text-center">Login</legend>
                 <center>
                   <label for="Email">Email:</label>
