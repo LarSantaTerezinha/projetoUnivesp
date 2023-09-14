@@ -14,7 +14,7 @@ if (session_start()) {
 </head>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="icon" type="image/png" href="img/html.png" />
-<script src="js/validaLoginForm.js"></script>
+
 <!--<style>
     body {
         /*width: 700px;*/
@@ -28,7 +28,7 @@ if (session_start()) {
 </style>-->
 <style>
   body {
-    background: url(img/lar-santa-terezinha5.jpeg);
+    background: url(img/lar-santa-terezinha000.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -100,7 +100,7 @@ if (session_start()) {
             <div class="col-12 border border-success border-4">
 
 
-              <form id="loginForm" method="POST" action="valida_usuario.php" onsubmit="return validaLoginForm()">
+              <form id="loginForm" method="POST" action="valida_usuario.php" onsubmit="return validaLoginForm() && validaEmail()">
                 <legend class="text-center">Login</legend>
                 <center>
                   <label for="Email">Email:</label>
@@ -111,6 +111,13 @@ if (session_start()) {
                   <br><br><br>
                   <input type="submit" value="Entrar" name="entrar" id="entrar">
                 </center>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <a href="form_cadastro_usuario.php">Não é cadastrado? Clique aqui!</a>
+                    </div>
+                  </div>
+                </div>
               </form>
 
             </div>
@@ -128,6 +135,7 @@ if (session_start()) {
       </div>
     </center>
   </center>
+  <script src="js/validaLoginForm.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
 

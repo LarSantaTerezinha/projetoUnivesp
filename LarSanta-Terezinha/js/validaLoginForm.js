@@ -29,3 +29,11 @@ function validaLoginForm() {
     // If all fields are valid, allow the form to submit
     return true;
   }
+
+  function validaEmail (email) {
+    var emailPattern =  /^[_a-z0-9._%-]+@[a-zA-Z0-9,-]+\.[a-zA-Z0-9-]{2,}$/u;
+    if(!emailPattern.test(email)) {
+      alert("Email fora do padrão nome@dominio.com. Verificar.");
+    }
+    return true; 
+  }
