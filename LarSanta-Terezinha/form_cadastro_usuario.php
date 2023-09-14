@@ -43,7 +43,7 @@
                     <br>
                     <h2>Cadastro de Usuario</h2>
                     <br><br>
-                    <form method="POST" action="cadastrar_usuario.php">
+                    <form method="POST" action="valida_cadastrar_usuario.php">
 
                         <label for="email">Nome:</label>
                         <input type="text" size=60 name="nome" id="nome">
@@ -82,20 +82,30 @@
             </div>
         </div>
         <br>
-        <div class="row">
+        <!-- <div class="row">
             <center>
                 <div class="col-12 border border-dark border-1 rounded">
                     <h5>Para cadastrar idoso use o link abaixo</h5>
                     <a href="form_cadastro_idoso.php">Acesse</a>
                 </div>
             </center>
-        </div>
+        </div> -->
     </div>
     <br>
     <br>
-    <a href="index.php">&nbsp;&nbsp;Voltar</a>
-    <script src="js/validaLoginForm.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-5"></div>
+            <center>
+            <div class="col-2 border border-warning border-1">
+                <a href="index.php">Voltar</a>
+            </div>
+            </center>
+            <div class="col-5"></div>
+        </div>
+        <script src="js/validaLoginForm.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

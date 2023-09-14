@@ -1,12 +1,13 @@
 <?php
 session_start();
-if(!isset($_SESSION['email'])){
+if (!isset($_SESSION['email'])) {
     header("location: index.php");
 }
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,18 +22,25 @@ if(!isset($_SESSION['email'])){
         background-size: cover;
     }
 </style>
+
 <body>
     <center>
-    <h1><strong>USUARIO ACESSOU COM SUCESSO</strong></h1>
+        <h1><strong>USUARIO ACESSOU COM SUCESSO</strong></h1>
     </center>
-    
-    <br>
-    <br>
-    <br>
 
-    <div>
-        <a href="index.php"><strong>VOLTAR</strong></a>
-    </div>
-    <script src="js/bootstrap.min.js"></script>
+    <br><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-5"></div>
+            <center>
+                <div class="col-2 border border-danger border-2">
+                    <a href="index.php">Voltar</a>
+                </div>
+            </center>
+            <div class="col-5"></div>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

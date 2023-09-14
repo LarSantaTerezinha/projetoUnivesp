@@ -82,7 +82,7 @@ if (session_start()) {
     <center>
       <div class="container">
         <div class="row">
-          <div class="col-6 border border-dark border-5">
+          <div class="col-6 border border-dark border-5 rounded">
 
             <h3 class="text-center">Informações da Paróquia</h3>
             <br>
@@ -95,25 +95,26 @@ if (session_start()) {
             <a href="contato.html">Contato</a>
             <br>
           </div>
-          <div class="col-6 border border-danger border-5">
+          <div class="col-6 border border-danger border-5 rounded">
 
-            <div class="col-12 border border-success border-4">
+            <div class="col-12 border border-success border-4 rounded">
 
 
-              <form id="loginForm" method="POST" action="valida_usuario.php" onsubmit="return validaLoginForm() && validaEmail()">
+              <form id="loginForm" method="POST" action="valida_usuario.php" onsubmit="return validaLoginForm()">
                 <legend class="text-center">Login</legend>
                 <center>
                   <label for="Email">Email:</label>
                   <input type="text" name="email" id="email">
-                  <br><br><br>
+                  <br><br>
                   <label for="senha">Senha:</label>
                   <input type="password" name="senha" id="senha">
-                  <br><br><br>
+                  <br><br>
                   <input type="submit" value="Entrar" name="entrar" id="entrar">
                 </center>
                 <div class="container">
                   <div class="row">
                     <div class="col-12">
+                      <br>
                       <a href="form_cadastro_usuario.php">Não é cadastrado? Clique aqui!</a>
                     </div>
                   </div>
@@ -121,7 +122,7 @@ if (session_start()) {
               </form>
 
             </div>
-            <div class="col-12 border border-dark border-4">
+            <div class="col-12 border border-dark border-4 rounded">
 
               <br>
               <h1 class="text-center"><strong>Pastoral</strong></h1>
