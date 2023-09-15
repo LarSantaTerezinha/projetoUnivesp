@@ -38,7 +38,8 @@
                     </form>
                 </center> -->
             </div>
-            <div class="col-8 border border-success border-2 rounded">
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-success border-2 rounded">
+            <!-- col-xs-6 col-sm-6 col-md-6 col-lg-6 border border-dark border-5 rounded -->
                 <center>
                     <br>
                     <h2>Cadastro de Usuario</h2>
@@ -46,13 +47,13 @@
                     <form method="POST" action="valida_cadastrar_usuario.php">
 
                         <label for="email">Nome:</label>
-                        <input type="text" size=60 name="nome" id="nome">
+                        <input type="text" name="nome" id="nome">
                         <br><br><br>
                         <label for="email">Email:</label>
-                        <input type="text" size=60 name="email" id="email">
+                        <input type="text" name="email" id="email">
                         <br><br><br>
                         <label for="senha">Senha:</label>
-                        <input type="password" size=60 name="senha" id="senha" required>
+                        <input type="password" name="senha" id="senha" required>
                         <br><br><br>
                         <input type="submit" value="Cadastrar" name="cadastrar" id="cadastrar">
                         <br><br>
@@ -98,7 +99,7 @@
         <div class="row">
             <div class="col-5"></div>
             <center>
-            <div class="col-2 border border-warning border-1">
+            <div class="col-2">
                 <a href="index.php">Voltar</a>
             </div>
             </center>

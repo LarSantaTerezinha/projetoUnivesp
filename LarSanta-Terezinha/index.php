@@ -28,7 +28,7 @@ if (session_start()) {
 </style>-->
 <style>
   body {
-    background: url(img/lar-santa-terezinha000.jpeg);
+    background: url(img/lar-santa-terezinha-logo0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -37,9 +37,10 @@ if (session_start()) {
     color: #F4A460;
   }
 </style>
-
+<!-- https://antoniomedeiros.dev/blog/2015/07/05/bootstrap/ 
+USAR AS REFERÊNCIAS QUE FOR PRECISO DESSE SITE ACIMA-->
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">Informações</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,12 +70,52 @@ if (session_start()) {
         </ul>
       </div>
     </div>
+  </nav> -->
+  <!-- Novo nav bar  -->
+  <nav class="navbar navbar-expand-lg navbar-dark p-3 bg-danger" id="headerNav">
+    <div class="container-fluid">
+      <a class="navbar-brand d-block d-lg-none" href="#">
+        <img src="img/lar-santa-terezinha-logo.jpg" height="80" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item">
+            <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">Products</a>
+          </li>
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link mx-2" href="#">
+              <img src="img/lar-santa-terezinha-logo.jpg" height="80" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Contact us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
   <center>
     <div class="container">
       <center>
         <br>
-        <h1 class="paragrafo1">Lar Santa Teresinha</h1>
+        <h1 class="paragrafo1"><strong>Santa Teresinha</strong></h1>
         <br>
       </center>
     </div>
@@ -82,7 +123,7 @@ if (session_start()) {
     <center>
       <div class="container">
         <div class="row">
-          <div class="col-6 border border-dark border-5 rounded">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 border border-dark border-5 rounded">
 
             <h3 class="text-center">Informações da Paróquia</h3>
             <br>
@@ -95,9 +136,9 @@ if (session_start()) {
             <a href="contato.html">Contato</a>
             <br>
           </div>
-          <div class="col-6 border border-danger border-5 rounded">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 border border-dark border-5 rounded">
 
-            <div class="col-12 border border-success border-4 rounded">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border border-success border-4 rounded">
 
 
               <form id="loginForm" method="POST" action="valida_usuario.php" onsubmit="return validaLoginForm()">
@@ -122,7 +163,7 @@ if (session_start()) {
               </form>
 
             </div>
-            <div class="col-12 border border-dark border-4 rounded">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border border-success border-4 rounded">
 
               <br>
               <h1 class="text-center"><strong>Pastoral</strong></h1>
