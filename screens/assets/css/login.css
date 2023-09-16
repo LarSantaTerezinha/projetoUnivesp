@@ -37,6 +37,20 @@ input:focus {
     text-align: left;
 }
 
+.side-1 .voltarBtn {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.side-1 .voltarBtn:hover {
+    color: #015e01;
+}
+
 .side-1 h1 {
     font-size: 6em;
     color: white;
