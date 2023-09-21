@@ -6,9 +6,9 @@ if(!isset($_SESSION['email'])){
 ?>
 <?php
 include 'conexao.php';
-$id = $_GET['id'];
+$email = $_GET['email'];
 
-$sql = "SELECT * FROM vinho WHERE vin_idVinho = ".$id.";";
+$sql = "SELECT * FROM usuario WHERE usu_email = ".$email.";";
 $result = mysqli_query($con, $sql) or die('Erro ao retornar os dados');
 
 while($res = mysqli_fetch_array($result)){

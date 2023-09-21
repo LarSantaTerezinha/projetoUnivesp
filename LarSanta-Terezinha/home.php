@@ -6,7 +6,7 @@ if (!isset($_SESSION['email'])) {
 ?>
 <?php
 include 'conexao.php';
-$email = $_GET['email'];
+$email = $_SESSION['email'];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -20,7 +20,7 @@ $email = $_GET['email'];
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <style>
     body {
-        background: url(img/Lighthouse.jpg);
+        background: url(img/Lighthouse1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
