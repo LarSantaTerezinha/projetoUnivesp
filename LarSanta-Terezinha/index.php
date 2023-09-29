@@ -140,8 +140,8 @@ USAR AS REFERÊNCIAS QUE FOR PRECISO DESSE SITE ACIMA-->
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border border-success border-4 rounded">
 
-
-              <form id="loginForm" method="POST" action="valida_usuario.php" onsubmit="return validaLoginForm()">
+              <!--onsubmit="return validaLoginForm()-->
+              <form id="loginForm" method="POST" action="valida_usuario.php">
                 <legend class="text-center">Login</legend>
                 <center>
                   <label for="Email">Email:</label>
