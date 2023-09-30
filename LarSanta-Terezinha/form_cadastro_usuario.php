@@ -18,25 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col-2">
-                <!-- <center>
-                    <br>
-                    <h2>Cadastro de Usuario</h2>
-                    <br><br>
-                    <form method="POST" action="cadastrar_usuario.php">
 
-                        <label for="email">Nome:</label>
-                        <input type="text" name="nome" id="nome" required>
-                        <br><br><br>
-                        <label for="email">Email:</label>
-                        <input type="text" name="email" id="email" required>
-                        <br><br><br>
-                        <label for="senha">Senha:</label>
-                        <input type="password" name="senha" id="senha" required>
-                        <br><br><br>
-                        <input type="submit" value="Cadastrar" name="cadastrar" id="cadastrar">
-                        <br><br>
-                    </form>
-                </center> -->
             </div>
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-success border-2 rounded">
             <!-- col-xs-6 col-sm-6 col-md-6 col-lg-6 border border-dark border-5 rounded -->
@@ -61,25 +43,7 @@
                 </center>
             </div>
             <div class="col-2">
-                <!-- <center>
-                    <br>
-                    <h2>Cadastro de Usuario</h2>
-                    <br><br>
-                    <form method="POST" action="cadastrar_usuario.php">
 
-                        <label for="email">Nome:</label>
-                        <input type="text" name="nome" id="nome" required>
-                        <br><br><br>
-                        <label for="email">Email:</label>
-                        <input type="text" name="email" id="email" required>
-                        <br><br><br>
-                        <label for="senha">Senha:</label>
-                        <input type="password" name="senha" id="senha" required>
-                        <br><br><br>
-                        <input type="submit" value="Cadastrar" name="cadastrar" id="cadastrar">
-                        <br><br>
-                    </form>
-                </center> -->
             </div>
         </div>
         <br>

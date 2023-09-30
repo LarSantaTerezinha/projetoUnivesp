@@ -20,7 +20,7 @@ $email = $_SESSION['email'];
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <style>
     body {
-        background: url(img/Lighthouse1.jpg);
+        background: url(img/Lighthouse.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -42,7 +42,7 @@ $email = $_SESSION['email'];
             <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#">Products</a>
+            <a class="nav-link mx-2" href="form_cadastro_idoso.php">Cadastrar</a>
           </li>
           <li class="nav-item d-none d-lg-block">
             <a class="nav-link mx-2" href="#">
@@ -50,15 +50,15 @@ $email = $_SESSION['email'];
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#">Pricing</a>
+            <a class="nav-link mx-2" href="form_agenda.php">Agenda</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Company
+              Serviços
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="form_update_usuario.php">Alterar Senha</a></li>
-              <li><a class="dropdown-item" href="listar_idoso_usuario.php"></a>Consultar Idoso</li>
+              <li><a class="dropdown-item" href="listar_idoso_usuario.php">Consultar Idoso</a></li>
               <li><a class="dropdown-item" href="logoff.php">Encerrar</a></li>
             </ul>
           </li>
