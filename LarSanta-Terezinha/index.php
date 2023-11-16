@@ -28,19 +28,19 @@ if (session_start()) {
 </style>-->
 <style>
   body {
-    background: url(img/lar-santa-terezinha5.jpeg);
+    background: url(img/luxa.org-opacity-changed-lar-santa-terezinha-logo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .paragrafo1 {
-    color: #F4A460;
+    color: #4B0082;
   }
 </style>
 <!-- https://antoniomedeiros.dev/blog/2015/07/05/bootstrap/ 
-USAR AS REFERÊNCIAS QUE FOR PRECISO DESSE SITE ACIMA-->
+USAR AS REFERÊNCIAS QUE FOR PRECISO DESSE SITE ACIMA <h1><a href="https://www.youtube.com/watch?v=fRk207cQNXU">SENHA SEGURA PHP</a></h1>-->
 <body>
-  <h1><a href="https://www.youtube.com/watch?v=fRk207cQNXU">SENHA SEGURA PHP</a></h1>
+  
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">Informações</a>
@@ -77,7 +77,7 @@ USAR AS REFERÊNCIAS QUE FOR PRECISO DESSE SITE ACIMA-->
     <div class="container">
       <center>
         <br>
-        <h1 class="paragrafo1"><strong>Santa Teresinha</strong></h1>
+        <h1 class="paragrafo1"><strong>Lar Santa Teresinha</strong></h1>
         <br>
       </center>
     </div>
@@ -85,22 +85,21 @@ USAR AS REFERÊNCIAS QUE FOR PRECISO DESSE SITE ACIMA-->
     <center>
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 border border-dark border-5 rounded">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 border rounded">
 
             <h3 class="text-center">Informações da Paróquia</h3>
             <br>
-            <a href="paroco.html">Pároco</a>
+            <font size="6" face="Book Antiqua"><a href="paroco.html">Pároco</a></font>
             <br>
-            <a href="historia.html">História</a>
+            <font size="6" face="Book Antiqua"><a href="historia.html">História</a></font>
             <br>
-            <a href="servicos.html">Serviços/Horários</a>
+            <font size="6" face="Book Antiqua"><a href="servicos.html">Serviços/Horários</a></font>
             <br>
-            <a href="contato.html">Contato</a>
-            <br>
+            <font size="6" face="Book Antiqua"><a href="contato.html">Contato</a></font>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 border border-dark border-5 rounded">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 border rounded">
 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border border-success border-4 rounded">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border rounded">
 
               <!--onsubmit="return validaLoginForm()-->
               <form id="loginForm" method="POST" action="valida_usuario.php">
@@ -125,14 +124,11 @@ USAR AS REFERÊNCIAS QUE FOR PRECISO DESSE SITE ACIMA-->
               </form>
 
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border border-success border-4 rounded">
-
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border rounded">
               <br>
               <h1 class="text-center"><strong>Pastoral</strong></h1>
-              <h5 class="text-center"><strong>Missao</strong></h5>
-              <h5 class="text-center"><strong>Valores</strong></h5>
-              <h5 class="text-center"><strong>Visao</strong></h5>
-              <h5 class="text-center"><strong>Contato</strong></h5>
+              <h6 class="text-center">Missao</h6>
+              <h6 class="text-center">Valores</h6>
             </div>
           </div>
         </div>

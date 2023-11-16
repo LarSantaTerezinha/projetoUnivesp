@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário cadastro usuario</title>
+    <title>Formulário Cadastro Idoso</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/html.png" />
-    <script src="js/validaFormCadastro.js"></script>
 </head>
 
 
@@ -53,25 +52,45 @@
             </div>
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 border border-success border-2 rounded">
             <!-- col-xs-6 col-sm-6 col-md-6 col-lg-6 border border-dark border-5 rounded -->
-                <center>
+                
                     <br>
-                    <h2>Cadastro de Usuario</h2>
+                    <center>
+                    <h2>Cadastro de Idoso</h2>
+                    </center>
                     <br><br>
-                    <form method="POST" action="valida_cadastrar_usuario.php">
+                    <form method="POST" action="sucesso.php">
 
                         <label for="email">Nome:</label>
-                        <input type="text" name="nome" id="nome">
+                        <input type="text" name="nome" id="nome" size="83">
                         <br><br><br>
-                        <label for="email">Email:</label>
-                        <input type="text" name="email" id="email">
+                        <label for="email">Endereço:</label>
+                        <input type="text" name="endereco" id="endereco" size="60">
+                        <label for="email">Número:</label>
+                        <input type="text" name="numero" id="numero" size="5">
                         <br><br><br>
-                        <label for="senha">Senha:</label>
-                        <input type="password" name="senha" id="senha" required>
+                        <label for="senha">Bairro:</label>
+                        <input type="text" name="bairro" id="bairro" size="43">
+                        <label for="senha">Complemento:</label>
+                        <input type="text" name="complemento" id="complemento">
                         <br><br><br>
+                        <label for="senha">Cidade:</label>
+                        <input type="text" name="cidade" id="cidade" size="45">
+                        <label for="senha">Estado:</label>
+                        <input type="text" name="estado" id="estado" size="8">
+                        <br><br><br>
+                        <label for="senha">Data Nascimento:</label>
+                        <input type="text" name="nascimento" id="nascimento">
+                        <br><br><br>
+                        <label for="senha">CPF:</label>
+                        <input type="text" name="cpf" id="cpf">
+                        <br><br><br>
+                        <label for="senha">Telefone:</label>
+                        <input type="text" name="telefone" id="telefone">
+                        <br><br>
                         <input type="submit" value="Cadastrar" name="cadastrar" id="cadastrar">
                         <br><br>
                     </form>
-                </center>
+                
             </div>
             <div class="col-2">
 
